@@ -1,7 +1,7 @@
-package com.dongnaoedu.rpc;
+package com.gengsc.rpc;
 
-import com.dongnaoedu.service.DepotManager;
-import com.dongnaoedu.vo.GoodTransferVo;
+import com.gengsc.service.DepotManager;
+import com.gengsc.vo.GoodTransferVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

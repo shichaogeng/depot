@@ -1,7 +1,7 @@
-package com.dongnaoedu.mq;
+package com.gengsc.mq;
 
-import com.dongnaoedu.service.DepotManager;
-import com.dongnaoedu.vo.GoodTransferVo;
+import com.gengsc.service.DepotManager;
+import com.gengsc.vo.GoodTransferVo;
 import com.google.gson.Gson;
 import com.rabbitmq.client.Channel;
 import org.slf4j.Logger;
@@ -9,11 +9,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.Message;
 
 import org.springframework.amqp.rabbit.core.ChannelAwareMessageListener;
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.io.IOException;
 
 /**
  * shichaogeng
